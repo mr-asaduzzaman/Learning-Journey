@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+        .flag{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container{
+            height: 300px;
+            width: 500px;
+            background-color: green;
+            border-radius: 50px;
+        }
+
+        .inner{
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            border-radius: 50%;
+            transform:translateX(150px) translateY(55px) ;
+
+        }
+        .text{
+            font-size: 2rem;
+            color:red;
+            transform: translateX(150px) translateY(125px);
+        }
+
+        .map{
+            transform: translateX(70px) translateY(-250px) scale(0.4);
+        }
+
+        /* .text:hover{
+            border: 1px solid red;
+            border-radius: 10px;
+            width: 165px;
+        } */
+
+        .map:hover{
+            filter: grayscale(100%);
+        }
+    </style>
+</head>
+
+
+
+
+
+
+
+<body class="flag">
+    <h1 class="title">Transform - Bangaldesh</h1>
+    <div class="container">
+    <div class="inner"></div>
+    <a href="/transition.html"><div class="text">Bangaldesh</div></a>
+    <img class="map" src="/Assets/Images/map.png" alt="">
+    </div>
+</body>
+</html>

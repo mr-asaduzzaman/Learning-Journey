@@ -1,0 +1,26 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.brand{
+    padding-left: 40px;
+}
+
+.icon{
+    padding-right: 40px;
+}
+
+section{
+    border: 5px solid blueviolet;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+.FontSize{
+    font-size: 2rem;
+}

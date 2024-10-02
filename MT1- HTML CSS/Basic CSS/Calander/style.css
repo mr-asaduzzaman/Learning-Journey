@@ -1,0 +1,38 @@
+body{
+    margin: 50px;
+}
+
+h3, h1{
+    text-align: center;
+}
+
+.calander{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.date, .day{
+    background-color: aqua;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    font-size: 1.5em;
+}
+
+.day{
+    background-color: aliceblue;
+}
+
+.an{
+    background-color: rgb(255, 165, 165);
+    color: rgb(0, 0, 0);
+}
+
+.today{
+    background-color: rgb(255, 140, 0);
+    color: rgb(0, 0, 0);
+}

@@ -1,0 +1,32 @@
+h3{
+    color: blueviolet; text-align: center;
+}
+.form{
+    color: blue; text-align: center;
+}
+
+li{
+color: red; size: 20px;
+}
+
+h2{
+    color: blue; background-image: url('../Image/2024-new-year-goal-plan-260nw-2380850493.webp');
+}
+
+.kibs{
+    color: rgb(16, 114, 200); font-size: 30px; background-image: url(../Image/2024-new-year-goal-plan-260nw-2380850493.webp); height: 300px; background-size: contain; text-align: center;
+}
+
+.Login-Parant{
+display: flex;
+justify-content: center;
+border: 5px solid lightgrey;
+border-radius: 10px;
+margin: 400px;
+padding: 50px;
+}
+
+.Login-form{
+    display: Flex;
+    flex-direction: column;
+}

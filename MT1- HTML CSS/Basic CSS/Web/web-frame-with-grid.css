@@ -1,0 +1,104 @@
+/* Grid Divided Styling */
+
+
+.header{
+    background-color: beige;
+    border-radius: 5px;
+    padding: 5px;
+    grid-area: header;
+    height: 100px;
+    text-align: center;
+}
+.bar{
+    grid-area: bar;
+    background-color: rgb(170, 255, 227);
+    border-radius: 5px;
+
+}
+.nav{
+    grid-area: nav;
+    background-color: rgb(190, 255, 177);
+    border-radius: 5px;
+}
+.main{
+    background-color: rgb(255, 189, 189);
+    border-radius: 5px;
+    padding: 5px;
+    grid-area: main;
+}
+.sidebar{
+    background-color: rgb(180, 216, 255);
+    border-radius: 5px;
+    padding: 5px;
+    grid-area: sidebar;
+}
+.advertisig{
+    background-color: rgb(183, 255, 201);
+    border-radius: 5px;
+    padding: 5px;
+    grid-area: advertising;
+}
+.footer{
+    background-color: rgb(253, 205, 255);
+    border-radius: 5px;
+    padding: 5px;
+    grid-area: footer;
+    height: 100px;
+    text-align: center;
+}
+.container{
+    display: grid;
+    gap: 5px;
+    grid-template-areas: 
+    "header header  header  header"
+    "bar    bar     bar     bar"
+    "nav    main    main    sidebar"
+    "nav    main    main    advertising"
+    "footer footer  footer footer"
+    ;
+}
+
+/* Grid Devided end */
+
+
+/* Basic styling start */
+
+.bar ul{
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+}
+.bar ul li{
+    list-style: none;
+}
+
+.barbtn{
+    background-color: rgb(214, 214, 255);
+    padding: 5px 20px;
+    border: solid rgb(255, 175, 175);
+    border-radius: 5px;
+
+}
+
+.spa{
+    display: flex;
+}
+
+
+
+
+/* Responsive Design for mobile */
+@media screen and (max-width: 576px) {
+    .container{
+        grid-template-areas:
+        "header"
+        "nav"
+        "main"
+        "sidebar"
+        "advertising"
+        "footer"
+        ;
+    }
+
+}
+    
