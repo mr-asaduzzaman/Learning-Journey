@@ -1,0 +1,16 @@
+.post-box{
+    background-color: rgba(127, 255, 212, 0.379);
+    border: 2px solid rgb(0, 255, 0);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.posts-box{
+    border: 2px solid rgb(1, 22, 255);
+    background-color: rgba(0, 132, 255, 0.139);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
